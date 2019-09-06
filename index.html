@@ -3,14 +3,21 @@
 <head>
   <title>Notes App</title>
   <!-- include source files here... -->
+  <!-- <script src="src/note-model.js"></script>
+  <script src="src/note-list-model.js"></script> -->
   <script src="src/note-model.js"></script>
+  <script src="src/note-list-model.js"></script>
 
   <!-- include spec files here... -->
   <script src="spec/assert.js"></script>
   <script src="spec/note-modelSpec.js"></script>
+  <script src="spec/note-list-modelSpec.js"></script>
 </head>
 
 <body>
-
+  <textarea name="note_input" id="note_input" cols="30" rows="10"></textarea>
+  <button id="create_button">SAVE</button>
+  <div id="notes"></div>
+  <script src="src/interface.js"></script>
 </body>
 </html>
